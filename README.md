@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Have your ingredients but don’t know what to cook? or looking to discover a new recipe based on your ingredients?
 
-## Getting Started
+I gotchu,
 
-First, run the development server:
+I made a website solely for that reason.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+What this website does is give you three recipes based on the ingredients you input.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Why did I make this?
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I was inspired by Shou Chew, TikTok’s CEO, vision to give people a platform to be discovered and change their lives. One of the great examples of this is Khaby. Khaby, who is from Senegal, moved to Italy and worked there as a factory worker. Before TikTok, Khaby was a nobody, but now Khabi has over 160 million followers on the platform and has completely changed his life. And for me, it was inspiring.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+But my way of “discovery” is different from TikTok; I do this through food. What do I mean by that?
+As the saying goes, “The way to a person’s heart is through his or her stomach." And I do believe that.
+People who cook for their families, friends, and loved ones know how fulfilling it is when people love the food. And I want to achieve that through this website.
+A business owner who cooks for a living could also benefit from this.
 
-## Learn More
+By “discovering” new recipes based on the ingredients you have. People who cook could give new experiences to people, whether it be their customers, their families, their friends, or their loved ones, and in that way they could earn their hearts. Again, as the saying goes, “The way to a person’s heart is through his or her stomach.”.
 
-To learn more about Next.js, take a look at the following resources:
+But for now, the website is in its MVP phase (prototype). Aesthetically, there is still a lot of room for improvement, as I am the only one (for now) building this during my free time. I will try to add new features soon. I want to reach as many people as possible. And if anybody wants to be a part of this, feel free to pm me, or if you have feedback, also kindly pm me.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website consists of a textbox, a submit button, three different categories of ingredients, and three images of the recipes.
+First is the textbox; this is where you will input your ingredients, separated by a comma (,) or a space ().
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Second is the submit button, which you click on after you enter your ingredients.
+Three different results will be shown; each will have an image and a title for that recipe.
 
-## Deploy on Vercel
+Third is the category. There are 3 different ingredient categories: first, Missed Ingredients, which are the ingredient(s) of the recipe that you have not entered in the textbox; second, Used Ingredients, which are the ingredient(s) of the recipe that you have entered in the textbox; and third, Unused Ingredients, which are the ingredient(s) that you have entered in the textbox that are not part of the recipe.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you would like to try it out, click the link below.
+https://whattocook.vercel.app/
+Thank you, and I hope you will like it, ☺.
