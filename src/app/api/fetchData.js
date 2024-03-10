@@ -2,7 +2,7 @@
 
 export async function fetchData(ingredients) {
 
-  const API_KEY = '62adf3f691934c71be3d572bcb2071ed';
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   const arrayIngredients = ingredients.toLocaleLowerCase().split(/[\s,]+/).join(',+');
 
